@@ -210,6 +210,10 @@ public class MemberServiceImpl {
 		session.removeAttribute("userInfo");
 		
 	}
+
+	public String checkId(String id) {
+		return memberMapper.checkId(id);
+	}
 }
 
 

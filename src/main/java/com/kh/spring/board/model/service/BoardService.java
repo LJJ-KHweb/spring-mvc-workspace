@@ -176,6 +176,9 @@ public class BoardService {
 		
 		
 	}
+	public int count() {
+		return boardMapper.selectTotalCount();
+	}
 	
 	
 }
